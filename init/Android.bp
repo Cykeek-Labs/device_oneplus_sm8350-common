@@ -96,3 +96,10 @@ sh_binary {
     src: "init.qcom.sh",
     vendor: true,
 }
+
+prebuilt_etc {
+    name: "init.logcat.rc",
+    src: "init.target.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
