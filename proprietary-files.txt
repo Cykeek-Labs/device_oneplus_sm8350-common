@@ -472,7 +472,6 @@ my_product/priv-app/HotwordEnrollmentXGoogle.apk:product/priv-app/HotwordEnrollm
 
 # IMS - from LA.QSSI.14.0.r1-10000.01-qssi.0
 system_ext/app/ImsRcsService/ImsRcsService.apk|1977575947f7a786b05795028e3cb2ab7142ac5a
-system_ext/app/QtiTelephony/QtiTelephony.apk|87bf34412816c4e1c4a56b050b1e304f98fef19d
 system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|6649715fb5d956ca7e92a747dc6e73a24f3c025e
 system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625a
 system_ext/etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62
