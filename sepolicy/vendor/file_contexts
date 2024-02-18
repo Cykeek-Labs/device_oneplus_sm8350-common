@@ -1,2 +1,5 @@
 # Init
 /vendor/bin/init.lahaina.post_boot.sh          u:object_r:vendor_qti_init_shell_exec:s0
+
+# Label Fast charging node
+/sys/class/oplus_chg/battery/voocchg_ing                     u:object_r:vendor_sysfs_usb_supply:s0
