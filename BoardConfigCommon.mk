@@ -75,8 +75,8 @@ TARGET_SURFACEFLINGER_UDFPS_LIB := //hardware/oplus:libudfps_extension.oplus
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     hardware/oplus/vintf/device_framework_matrix.xml \
-    hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml \
-    vendor/lineage/config/device_framework_matrix.xml
+    hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml
+
 DEVICE_FRAMEWORK_MANIFEST_FILE += $(COMMON_PATH)/framework_manifest.xml
 DEVICE_MATRIX_FILE := hardware/qcom-caf/common/compatibility_matrix.xml
 DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
@@ -106,7 +106,7 @@ BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 BOARD_RAMDISK_USE_LZ4 := true
-TARGET_KERNEL_SOURCE := kernel/oneplus/sm8350
+TARGET_KERNEL_SOURCE := kernel/realme/sm8350
 TARGET_KERNEL_CONFIG := vendor/lahaina-qgki_defconfig
 TARGET_KERNEL_NO_GCC := true
 
