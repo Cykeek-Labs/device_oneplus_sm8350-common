@@ -91,6 +91,12 @@ on post-fs
 on late-fs
     mount_all --late
 
+    # Required for time_daemon
+    mkdir /data/vendor/time 0700 system system
+
+    # Start time daemon early so that the system time can be set early
+    start time_daemon
+
 on post-fs-data
     mkdir /vendor/data/tombstones 0771 system system
     # Enable WLAN cold boot calibration
