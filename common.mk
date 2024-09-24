@@ -252,7 +252,9 @@ PRODUCT_ENABLE_UFFD_GC := false
 
 # Keymaster
 PRODUCT_PACKAGES += \
-    android.hardware.keymaster@4.1.vendor
+    android.hardware.keymaster@4.1.vendor \
+    android.hardware.keymaster@4.0-impl \
+    android.hardware.keymaster@4.0-service
 
 # Lineage Health
 PRODUCT_PACKAGES += \
